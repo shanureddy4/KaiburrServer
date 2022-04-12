@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fa8899fe-344a-4836-8359-399b84944cf1" name="Default Changelist" comment="Initial Commit">
+    <list default="true" id="fa8899fe-344a-4836-8359-399b84944cf1" name="Default Changelist" comment="style sheets deleted">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,6 +52,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -154,7 +157,7 @@
       <workItem from="1649742150229" duration="611000" />
       <workItem from="1649754159287" duration="2036000" />
       <workItem from="1649756382970" duration="955000" />
-      <workItem from="1649757433554" duration="2125000" />
+      <workItem from="1649757433554" duration="6043000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <created>1649755678278</created>
@@ -177,7 +180,14 @@
       <option name="project" value="LOCAL" />
       <updated>1649757904419</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="style sheets deleted">
+      <created>1649759670084</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1649759670084</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -196,6 +206,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial Commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial Commit" />
+    <MESSAGE value="style sheets deleted" />
+    <option name="LAST_COMMIT_MESSAGE" value="style sheets deleted" />
   </component>
 </project>
