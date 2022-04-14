@@ -29,7 +29,6 @@ jobs:
       uses: mr-smithers-excellent/docker-build-push@v5
       with:
         image: shanureddy78/kaiburrserver
-        addLatest: True
         registry: docker.io
         username: ${{ secrets.DOCKER_USERNAME }}
         password: ${{ secrets.DOCKER_PASSWORD }}
