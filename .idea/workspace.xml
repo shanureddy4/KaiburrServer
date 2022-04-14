@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fa8899fe-344a-4836-8359-399b84944cf1" name="Default Changelist" comment="swagger ui and web removed">
+    <list default="true" id="fa8899fe-344a-4836-8359-399b84944cf1" name="Default Changelist" comment="db uppdated">
       <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -160,7 +161,7 @@
       <workItem from="1649917779338" duration="257000" />
       <workItem from="1649918070574" duration="638000" />
       <workItem from="1649918745021" duration="568000" />
-      <workItem from="1649919345636" duration="1990000" />
+      <workItem from="1649919345636" duration="2983000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <created>1649755678278</created>
@@ -204,7 +205,14 @@
       <option name="project" value="LOCAL" />
       <updated>1649922420396</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="db uppdated">
+      <created>1649923261618</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1649923261618</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -227,7 +235,8 @@
     <MESSAGE value="style sheets deleted" />
     <MESSAGE value="pom.xml updated" />
     <MESSAGE value="swagger ui and web removed" />
-    <option name="LAST_COMMIT_MESSAGE" value="swagger ui and web removed" />
+    <MESSAGE value="db uppdated" />
+    <option name="LAST_COMMIT_MESSAGE" value="db uppdated" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
