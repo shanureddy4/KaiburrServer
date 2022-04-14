@@ -1,9 +1,8 @@
 package com.example.kaiburr;
 
-import io.swagger.annotations.ApiModel;
+
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
-@ApiModel(description = "Server Details")
 @Document
 public class Server {
     @Id
