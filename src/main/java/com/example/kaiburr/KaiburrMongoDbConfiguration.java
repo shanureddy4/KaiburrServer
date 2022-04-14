@@ -15,18 +15,17 @@ import java.sql.SQLOutput;
 
 @Configuration
 public class KaiburrMongoDbConfiguration {
-    private final String databasename = System.getenv("MONGO_INITDB_DATABASE");
-    private final String username = System.getenv("MONGO_INITDB_ROOT_USERNAME");
-    private final String password = System.getenv("MONGO_INITDB_ROOT_PASSWORD");
+   // private final String databasename = System.getenv("MONGO_INITDB_DATABASE");
+    //private final String username = System.getenv("MONGO_INITDB_ROOT_USERNAME");
+   // private final String password = System.getenv("MONGO_INITDB_ROOT_PASSWORD");
 
 
     public @Bean MongoDbFactory getMongoDbFactory() throws UnknownHostException {
 
-        final String mongouri= "mongodb://"+username+":"+password+"@localhost:27017/"+databasename;
-        return new SimpleMongoDbFactory(new MongoClientURI(mongouri));
+        //final String mongouri= "mongodb://"+username+":"+password+"@localhost:27017/"+databasename;
+        return new SimpleMongoDbFactory(new MongoClient("localhost",27017),"mongos");
     }
     public @Bean(name = "mongoTemplate") MongoTemplate getMongoTemplate() throws UnknownHostException {
-        MongoTemplate mongoTemplate = new MongoTemplate(getMongoDbFactory());
-        return mongoTemplate;
+        return new MongoTemplate(getMongoDbFactory());
     }
 }
