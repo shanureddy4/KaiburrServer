@@ -4,14 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fa8899fe-344a-4836-8359-399b84944cf1" name="Default Changelist" comment="style sheets deleted">
+    <list default="true" id="fa8899fe-344a-4836-8359-399b84944cf1" name="Default Changelist" comment="mongo config updated">
       <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/kaiburr/KaiburrMongoDbConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/kaiburr/KaiburrMongoDbConfiguration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/kaiburr/KaiburrMongoDbConfiguration.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/kaiburr/KaiburrMongoDbConfiguration.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/kaiburr/KaiburrApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/kaiburr/KaiburrMongoDbConfiguration.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/kaiburr/Server.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/kaiburr/ServerNotFoundException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/kaiburr/ServerRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/kaiburr/ServersController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -170,7 +174,7 @@
       <workItem from="1649754159287" duration="2036000" />
       <workItem from="1649756382970" duration="955000" />
       <workItem from="1649757433554" duration="6043000" />
-      <workItem from="1649900536400" duration="982000" />
+      <workItem from="1649900536400" duration="3400000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <created>1649755678278</created>
@@ -200,7 +204,14 @@
       <option name="project" value="LOCAL" />
       <updated>1649759670084</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="mongo config updated">
+      <created>1649901905476</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1649901905476</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -220,6 +231,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial Commit" />
     <MESSAGE value="style sheets deleted" />
-    <option name="LAST_COMMIT_MESSAGE" value="style sheets deleted" />
+    <MESSAGE value="mongo config updated" />
+    <option name="LAST_COMMIT_MESSAGE" value="mongo config updated" />
   </component>
 </project>

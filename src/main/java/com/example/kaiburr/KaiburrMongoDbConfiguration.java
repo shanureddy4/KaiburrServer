@@ -19,7 +19,7 @@ public class KaiburrMongoDbConfiguration {
     private String mongouri;
     public @Bean MongoDbFactory getMongoDbFactory() throws UnknownHostException {
         //mongoclient will take 127.0.0.1 ip address if it found null
-        return new SimpleMongoDbFactory(new MongoClientURI(mongouri));
+        return new SimpleMongoDbFactory(new MongoClient("localhost",27017),"mongos");
     }
     public @Bean(name = "mongoTemplate") MongoTemplate getMongoTemplate() throws UnknownHostException {
         MongoTemplate mongoTemplate = new MongoTemplate(getMongoDbFactory());
