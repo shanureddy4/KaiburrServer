@@ -23,11 +23,11 @@ This project requires an IDE that support spring boot applications. Intellij IDE
 ![Mongo](https://github.com/shanureddy4/KaiburrServer/blob/master/Screenshots/Mongodb.png)
 
 ### Api requests
-**[GET]**
+**GET**
 ![GET](https://github.com/shanureddy4/KaiburrServer/blob/master/Screenshots/getswagger.png)
-**[PUT]**
+**PUT**
 ![PUT](https://github.com/shanureddy4/KaiburrServer/blob/master/Screenshots/put%20swagger.png)
-**[DELETE]**
+**DELETE**
 ![DELETE](https://github.com/shanureddy4/KaiburrServer/blob/master/Screenshots/Delete%20swagger.png)
 
 
